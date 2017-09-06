@@ -8,7 +8,12 @@
     "dev": "./node_modules/nodemon/bin/nodemon.js src/server.js --exec 'npm run lint & node' ",
     "lint": "./node_modules/.bin/eslint **/*.js"
   },
-  "keywords": ["Node JS", "express", "graphql", "back end"],
+  "keywords": [
+    "Node JS",
+    "express",
+    "graphql",
+    "back end"
+  ],
   "author": "Bensigo Egwey",
   "license": "ISC",
   "devDependencies": {
@@ -19,5 +24,19 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "nodemon": "^1.12.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.1.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "graphql": "^0.11.3",
+    "graphql-tools": "^1.2.2",
+    "jsonwebtoken": "^8.0.0",
+    "mongoose": "^4.11.10",
+    "morgan": "^1.8.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0"
   }
 }
