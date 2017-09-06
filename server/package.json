@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run src/server.js ",
+    "dev": "./node_modules/nodemon/bin/nodemon.js src/server.js --exec 'npm run lint & node' ",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "keywords": ["Node JS", "express", "graphql", "back end"],
+  "author": "Bensigo Egwey",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.12.0"
+  }
+}
